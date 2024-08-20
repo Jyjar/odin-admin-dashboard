@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sankofa+Display&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="svgs/view-dashboard.svg" width="40px">
+            <h1>Dashboard</h1>
+            <div class="navigation-icons">
+                <img src="svgs/home.svg">
+                <img src="svgs/card-account-details-outline.svg">
+                <img src="svgs/clock-time-three.svg">
+                <img src="svgs/message-reply.svg">
+                <img src="svgs/note-multiple.svg">
+                <img src="svgs/account-group.svg">
+            </div>
+            <div class="navigation-names">
+                <h2>Home</h2>
+                <h2>Profile</h2>
+                <h2>Messages</h2>
+                <h2>History</h2>
+                <h2>Tasks</h2>
+                <h2>Communities</h2>
+            </div>
+            <div class="options-icons">
+                <img src="svgs/cog.svg">
+                <img src="svgs/help-box.svg">
+                <img src="svgs/shield-check.svg">
+            </div>
+            <div class="options-names">
+                <h2>Settings</h2>
+                <h2>Support</h2>
+                <h2>Privacy</h2>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header-container">
+                <div class="search">
+                    <img src="svgs/magnify.svg" alt="magnify glass" width="23px"></img>
+                    <form action="/" method="post">
+                        <input type="text" name="search" id="search">
+                    </form>
+                </div>
+            </div>
+            <div class="header-container">
+                <div class="profile-bell">
+                    <img src="svgs/bell-ring-outline.svg" width="20px">
+                    <img class="profile-image" src="profile-image/cat.png">
+                    <h2>Morgan Oakley</h2>
+                </div>
+            </div>
+            <div class="header-container">
+                <div class="welcome-message">
+                    <img class="profile-image" src="profile-image/cat.png"></im>
+                    <p>Hi there,</p>
+                    <h2>Morgan Oakley (@morgan)</h2>
+                </div>
+            </div>
+            <div class="header-container">
+                <div class="buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <h2 class="your_projects">Your projects</h2>
+            <h2>Announcments</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="text">
+                        <h3>Super Cool Project</h3>
+                        <p>Sed tempus ut lacus ut seclerisque. Suspendisse sollicitudin nibh erat, id facilisis felis
+                            accumsan nec.</p>
+                    </div>
+                    <div class="images">
+                        <img src="svgs/star-plus-outline.svg">
+                        <img src="svgs/eye-plus-outline.svg">
+                        <img src="svgs/source-fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text">
+                        <h3>Less Cool Project</h3>
+                        <p>Nullam condimentum ipsum ut lectus vechiula consectureru. Quisque sed dolor tindunt,
+                            consecenturer sapien et, facilis dolor. Duis sem purus, dignissim ut sapien in, varius
+                            pellentesque lacus.</p>
+                    </div>
+                    <div class="images">
+                        <img src="svgs/star-plus-outline.svg">
+                        <img src="svgs/eye-plus-outline.svg">
+                        <img src="svgs/source-fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text">
+                        <h3>Impossible App</h3>
+                        <p>In hac habitasse platea dictusmt. Vivamus dictum rutrum arcu, a placerat velit sagittis id.
+                        </p>
+                    </div>
+                    <div class="images">
+                        <img src="svgs/star-plus-outline.svg">
+                        <img src="svgs/eye-plus-outline.svg">
+                        <img src="svgs/source-fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text">
+                        <h3>Easy Peasy App</h3>
+                        <p>Etiam curus eros ac effictur fringilla. Vestibulum dignissim urna eget accumsan aliquam.
+                            Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                    </div>
+                    <div class="images">
+                        <img src="svgs/star-plus-outline.svg">
+                        <img src="svgs/eye-plus-outline.svg">
+                        <img src="svgs/source-fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text">
+                        <h3>Ad Blocker</h3>
+                        <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendreit felis.
+                            Aliquam sed malesuda eros.</p>
+                    </div>
+                    <div class="images">
+                        <img src="svgs/star-plus-outline.svg">
+                        <img src="svgs/eye-plus-outline.svg">
+                        <img src="svgs/source-fork.svg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="text">
+                        <h3>Money Maker</h3>
+                        <p>Praesent convallis, libero quis congue elementrum, nunc ante faucibus sapien, ac selerisque
+                            tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+                    </div>
+                    <div class="images">
+                        <img src="svgs/star-plus-outline.svg">
+                        <img src="svgs/eye-plus-outline.svg">
+                        <img src="svgs/source-fork.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="main_content_sidebar">
+                <div class="announcments">
+                    <h3>Site Maintenance</h3>
+                    <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec henderit sodales congue..
+                    </p>
+                    <hr>
+                    <h3>Community Share Day</h3>
+                    <p>Nam vel lectus tincidunt, rutrum nulla eu, omare libero. Aliquam dictum accumsan prottitor..</p>
+                    <hr>
+                    <h3>Updated Privacy Policy</h3>
+                    <p>Phaselius effictur nisi eget elit consecteur, eget condimentum ante auctor. Cras fringilla
+                        sagittis sem in mattis..</p>
+                </div>
+                <h2>Trending</h2>
+                <div class="trending">
+                    <img class="profile-image" src="profile-image/purple-cat.png">
+                    <div class="profile-tag">
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
+                    <img class="profile-image" src="profile-image/cat.png">
+                    <div class="profile-tag">
+                        <p>@morgan</p>
+                        <p>Super Cool Project</p>
+                    </div>
+                    <img class="profile-image" src="profile-image/bee.png">
+                    <div class="profile-tag">
+                        <p>@kendall</p>
+                        <p>Life Changing App</p>
+                    </div>
+                    <img class="profile-image" src="profile-image/fox.png">
+                    <div class="profile-tag">
+                        <p>@alex</p>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
